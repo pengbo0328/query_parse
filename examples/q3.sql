@@ -1,0 +1,1 @@
+COPY (UPDATE tbl SET i = i + 1 RETURNING *) TO STDOUT;
